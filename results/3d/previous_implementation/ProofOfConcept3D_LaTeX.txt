@@ -1,0 +1,13 @@
+% Table: Minimal 3D voxel proof-of-concept (10 runs, 20x20x8 grid)
+\begin{table}[h]
+\caption{Minimal 3D voxel proof-of-concept: EGSO3D vs. FMM-descent3D vs. GWO3D.}\label{tab:3dpoc}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}lcccc@{}}
+\toprule
+Algorithm & SR (\%) & V.Best & V.Mean & Time (s)\\
+\midrule
+FMM-descent3D & --- & 45.00 & --- & 0.081\\
+EGSO3D & 100.0 & 28.53 & 29.89 & 0.751\\
+GWO3D & 70.0 & 29.43 & 30.03 & 0.145\\
+\botrule
+\end{tabular*}
+\end{table}

@@ -1,0 +1,38 @@
+Execution-Noise Robustness: A* vs EGSO
+Monte Carlo: 300 trials per (map, sigma); waypoint-wise isotropic Gaussian perturbation N(0,sigma^2)
+=========================================================================
+
+--- Deterministic clearance margin along nominal (unperturbed) path ---
+Map      A*.MeanClr     A*.MinClr      EGSO.MeanClr   EGSO.MinClr   
+1        2.478          1.000          2.900          1.000         
+2        1.914          0.000          2.020          0.000         
+3        2.920          0.707          3.320          0.707         
+4        5.818          1.000          4.800          0.707         
+5        2.834          1.000          2.610          1.000         
+
+--- Monte Carlo survival rate (%) vs execution-noise sigma (grid cells) ---
+
+Map 1:
+  sigma      :     0.1    0.2    0.3    0.4    0.5    0.6    0.8    1.0
+  A*   SR(%) :    44.0   32.7   22.7   11.7    8.0    5.0    2.0    1.0
+  EGSO SR(%) :    69.0   60.7   43.3   33.3   24.0   18.3   10.3    3.3
+
+Map 2:
+  sigma      :     0.1    0.2    0.3    0.4    0.5    0.6    0.8    1.0
+  A*   SR(%) :    10.7   10.0    4.0    0.7    0.0    0.0    0.0    0.0
+  EGSO SR(%) :    14.0   11.7    3.7    1.0    0.7    0.0    0.0    0.0
+
+Map 3:
+  sigma      :     0.1    0.2    0.3    0.4    0.5    0.6    0.8    1.0
+  A*   SR(%) :    12.7    8.7    2.0    0.0    0.3    0.0    0.0    0.0
+  EGSO SR(%) :    17.3   13.3    5.0    1.7    0.0    0.0    0.0    0.3
+
+Map 4:
+  sigma      :     0.1    0.2    0.3    0.4    0.5    0.6    0.8    1.0
+  A*   SR(%) :    71.3   61.0   48.7   44.0   36.7   28.0   25.7   21.3
+  EGSO SR(%) :    27.7   24.7   13.7    7.0    3.3    3.3    1.7    2.7
+
+Map 5:
+  sigma      :     0.1    0.2    0.3    0.4    0.5    0.6    0.8    1.0
+  A*   SR(%) :    16.3   11.3    4.7    1.0    0.0    0.3    0.0    0.0
+  EGSO SR(%) :     9.0    8.0    2.0    1.0    0.0    0.0    0.0    0.0

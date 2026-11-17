@@ -1,0 +1,9 @@
+EVF (T_nav + T_clear) precomputation time on the 5 main benchmark maps (median of 10 repeats)
+=========================================================================
+
+Map      Size       Precompute(s)    Std(s)      
+1        50x50      0.0180           0.0072      
+2        50x50      0.0155           0.0002      
+3        60x60      0.0381           0.0007      
+4        80x80      0.1056           0.0006      
+5        90x90      0.1522           0.0010      

@@ -1,0 +1,10 @@
+Factorial Ablation: 2 (init) x 3 (guidance field), Map1/3/5, 10 independent runs each
+=========================================================================
+
+Combination                      | Map1 SR(%)  V.Mean   V.Std  | Map3 SR(%)  V.Mean   V.Std  | Map5 SR(%)  V.Mean   V.Std 
+GSI + Eikonal (= Full EGSO)      |    100.0     76.16    1.20 |    100.0     92.12    1.69 |    100.0    156.09    6.83
+GSI + APF (= w/o EVF)            |    100.0     86.81    6.68 |    100.0     95.82    1.43 |    100.0    155.67    4.84
+GSI + Dijkstra/BFS               |    100.0     78.52    1.77 |    100.0     94.19    2.45 |    100.0    158.70    4.91
+Random + Eikonal                 |    100.0    113.50    7.87 |    100.0    132.58   15.23 |    100.0    315.46   40.67
+Random + APF                     |    100.0    116.98   12.25 |    100.0    128.27   18.82 |    100.0    308.23   61.99
+Random + Dijkstra/BFS            |    100.0    118.31   11.39 |    100.0    134.68   13.19 |    100.0    304.63   70.67

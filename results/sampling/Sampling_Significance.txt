@@ -1,0 +1,22 @@
+Wilcoxon Rank-Sum Test (manual implementation): EGSO vs RRT* / Informed-RRT* (alpha=0.05)
+=========================================================================
+
+===== Map 1 =====
+  EGSO vs RRT*            : median EGSO=76.73, median RRT*=79.24, z=-4.152, p=3.293e-05  + (EGSO better)
+  EGSO vs Informed-RRT*   : median EGSO=76.73, median Informed-RRT*=81.53, z=-4.991, p=6.015e-07  + (EGSO better)
+===== Map 2 =====
+  EGSO vs RRT*            : median EGSO=133.73, median RRT*=137.77, z=-5.315, p=1.065e-07  + (EGSO better)
+  EGSO vs Informed-RRT*   : median EGSO=133.73, median Informed-RRT*=148.03, z=-5.396, p=6.796e-08  + (EGSO better)
+===== Map 3 =====
+  EGSO vs RRT*            : median EGSO=92.30, median RRT*=92.49, z=-0.771, p=0.4407  ~ (no sig. diff.)
+  EGSO vs Informed-RRT*   : median EGSO=92.30, median Informed-RRT*=93.32, z=-0.392, p=0.6949  ~ (no sig. diff.)
+===== Map 4 =====
+  EGSO vs RRT*            : median EGSO=118.78, median RRT*=128.73, z=-4.910, p=9.127e-07  + (EGSO better)
+  EGSO vs Informed-RRT*   : median EGSO=118.78, median Informed-RRT*=127.18, z=-4.693, p=2.69e-06  + (EGSO better)
+===== Map 5 =====
+  EGSO vs RRT*            : median EGSO=154.73, median RRT*=159.14, z=-2.583, p=0.009786  + (EGSO better)
+  EGSO vs Informed-RRT*   : median EGSO=154.73, median Informed-RRT*=159.07, z=-2.827, p=0.004703  + (EGSO better)
+
+Summary (Win/Tie/Loss across 5 maps):
+  EGSO vs RRT*            : Win=4 Tie=1 Loss=0
+  EGSO vs Informed-RRT*   : Win=4 Tie=1 Loss=0

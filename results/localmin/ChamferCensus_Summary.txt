@@ -1,0 +1,19 @@
+Local-Minima Census (same protocol as Run_LocalMinimaCensus.m): EVF(FMM) vs BFS/Dijkstra vs Chamfer vs APF
+Chamfer distance transform census
+=========================================================================
+
+-- 5 main maps --
+Map               EVF            BFS        Chamfer            APF
+Map1     0.00%/0      0.00%/0      1.75%/3     43.67%/15  
+Map2     0.00%/0      0.00%/0      0.00%/0     74.92%/8   
+Map3     0.00%/0      0.00%/0     54.23%/51    78.33%/50  
+Map4     0.00%/0      0.00%/0      0.00%/0     33.40%/6   
+Map5     0.00%/0      0.00%/0      0.37%/2     53.87%/15  
+
+-- 5 stress-test maps (decoy stages 1-5) --
+Stage             EVF            BFS        Chamfer            APF
+1        0.00%/0      0.00%/0      0.00%/0     55.65%/5   
+2        0.00%/0      0.00%/0      0.69%/2     51.32%/8   
+3        0.00%/0      0.00%/0      0.00%/0     71.37%/18  
+4        0.00%/0      0.00%/0      0.00%/0     64.51%/14  
+5        0.00%/0      0.00%/0      0.00%/0     76.27%/17  

@@ -1,0 +1,23 @@
+Map5	EGSO	all=12893.6	visible=-	hidden=0	t=-	revised EGSO, mean of 5 runs
+Map5	GWO	all=14000	visible=5100	hidden=8900	t=14.1s	ok
+Map5	PSO	all=14000	visible=5100	hidden=8900	t=17.1s	ok
+Map5	GA	all=14050	visible=5150	hidden=8900	t=28.4s	ok
+Map5	DE	all=14050	visible=5150	hidden=8900	t=14.3s	ok
+Map5	SSA	all=16050	visible=7150	hidden=8900	t=5.7s	ok
+Map5	WOA	all=5000	visible=5000	hidden=0	t=1.0s	ok
+Map5	MFO	all=5050	visible=5050	hidden=0	t=3.0s	ok
+Map5	ALO	all=5050	visible=5050	hidden=0	t=1.4s	ok
+Map5	HHO	all=12440	visible=12440	hidden=0	t=2.4s	ok
+Map5	SCA	all=5000	visible=5000	hidden=0	t=0.1s	ok
+Map5	ABC	all=5025	visible=5025	hidden=0	t=0.0s	ok
+Map5	ACO	all=5050	visible=5050	hidden=0	t=0.1s	ok
+Map5	BBO	all=4050	visible=4050	hidden=0	t=0.4s	ok
+Map5	CS	all=10050	visible=10050	hidden=0	t=0.1s	ok
+Map5	FA	all=114225	visible=114225	hidden=0	t=0.4s	ok
+Map5	TLBO	all=10050	visible=10050	hidden=0	t=0.8s	ok
+Map5	BA	all=5050	visible=5050	hidden=0	t=14.0s	ok
+Map5	FPA	all=5050	visible=5050	hidden=0	t=0.0s	ok
+Map5	SMA	all=5050	visible=5050	hidden=0	t=0.5s	ok
+Map5	INFO	all=14050	visible=5150	hidden=8900	t=11.2s	ok
+Map5	SBOA	all=14050	visible=5150	hidden=8900	t=11.9s	ok
+Map5	ARO	all=14050	visible=5150	hidden=8900	t=12.3s	ok

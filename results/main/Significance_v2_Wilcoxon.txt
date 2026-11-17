@@ -1,0 +1,161 @@
+Wilcoxon Rank-Sum Test (recomputed with ManualRankSum.m, no toolbox dependency)
+Two variants reported side by side for each map x baseline:
+  [Valid-only]  collision-free runs only (as in Run_SignificanceTests.m)
+  [All-runs]    all 20 raw runs per algorithm, including the large
+                collision-penalty fitness values for failed runs -- jointly reflects
+                feasibility (success rate) and solution quality in one test
+=========================================================================
+
+
+===== Map 1: 50x50 =====
+Algorithm  | Valid-only (orig. protocol)  | All-runs (incl. failures, NEW)
+GWO        | +                            | + (p=0.000247)              
+PSO        | +                            | + (p=8.29e-05)              
+GA         | +                            | + (p=2.36e-06)              
+DE         | +                            | + (p=1.66e-07)              
+SSA        | +                            | + (p=2.95e-08)              
+WOA        | +                            | + (p=6.7e-08)               
+MFO        | +                            | + (p=6.8e-08)               
+ALO        | + (0%SR)                     | + (p=5.2e-08)               
+HHO        | +                            | + (p=6.78e-08)              
+SCA        | +                            | + (p=6.8e-08)               
+ABC        | +                            | + (p=6.47e-08)              
+ACO        | +                            | + (p=6.8e-08)               
+BBO        | +                            | + (p=6.8e-08)               
+CS         | +                            | + (p=6.8e-08)               
+FA         | +                            | + (p=6.79e-08)              
+TLBO       | +                            | + (p=6.8e-08)               
+BA         | + (0%SR)                     | + (p=2.4e-08)               
+FPA        | +                            | + (p=2.96e-08)              
+SMA        | +                            | + (p=6.8e-08)               
+INFO       | +                            | + (p=1.1e-05)               
+SBOA       | +                            | + (p=0.000375)              
+ARO        | +                            | + (p=6.01e-07)              
+
+===== Map 2: 50x50 =====
+Algorithm  | Valid-only (orig. protocol)  | All-runs (incl. failures, NEW)
+GWO        | +                            | + (p=0.0275)                
+PSO        | +                            | + (p=0.0468)                
+GA         | ~                            | ~ (p=0.072)                 
+DE         | ~                            | ~ (p=0.199)                 
+SSA        | ~                            | ~ (p=0.072)                 
+WOA        | + (0%SR)                     | + (p=5.48e-08)              
+MFO        | +                            | + (p=5.76e-08)              
+ALO        | + (0%SR)                     | + (p=5.25e-08)              
+HHO        | + (0%SR)                     | + (p=5.93e-08)              
+SCA        | + (0%SR)                     | + (p=5.07e-08)              
+ABC        | + (0%SR)                     | + (p=5.06e-08)              
+ACO        | +                            | + (p=6.03e-08)              
+BBO        | +                            | + (p=6.92e-07)              
+CS         | + (0%SR)                     | + (p=2.91e-08)              
+FA         | + (0%SR)                     | + (p=4.37e-08)              
+TLBO       | +                            | + (p=5.65e-08)              
+BA         | + (0%SR)                     | + (p=5.07e-08)              
+FPA        | + (0%SR)                     | + (p=5.27e-08)              
+SMA        | +                            | + (p=5.77e-08)              
+INFO       | +                            | + (p=0.0439)                
+SBOA       | +                            | + (p=0.0223)                
+ARO        | ~                            | ~ (p=0.379)                 
+
+===== Map 3: 60x60 =====
+Algorithm  | Valid-only (orig. protocol)  | All-runs (incl. failures, NEW)
+GWO        | +                            | + (p=3.49e-05)              
+PSO        | +                            | + (p=4.54e-07)              
+GA         | +                            | + (p=1.23e-07)              
+DE         | +                            | + (p=4.54e-07)              
+SSA        | +                            | + (p=9.75e-06)              
+WOA        | +                            | + (p=6.78e-08)              
+MFO        | +                            | + (p=6.8e-08)               
+ALO        | +                            | + (p=5.33e-08)              
+HHO        | +                            | + (p=6.03e-08)              
+SCA        | +                            | + (p=6.8e-08)               
+ABC        | +                            | + (p=6.8e-08)               
+ACO        | +                            | + (p=6.8e-08)               
+BBO        | +                            | + (p=6.8e-08)               
+CS         | +                            | + (p=6.8e-08)               
+FA         | +                            | + (p=6.7e-08)               
+TLBO       | +                            | + (p=6.8e-08)               
+BA         | +                            | + (p=5.73e-08)              
+FPA        | +                            | + (p=6.8e-08)               
+SMA        | +                            | + (p=6.8e-08)               
+INFO       | +                            | + (p=9.13e-07)              
+SBOA       | +                            | + (p=1.8e-06)               
+ARO        | +                            | + (p=1.23e-07)              
+
+===== Map 4: 80x80 =====
+Algorithm  | Valid-only (orig. protocol)  | All-runs (incl. failures, NEW)
+GWO        | +                            | + (p=6.79e-08)              
+PSO        | +                            | + (p=2.06e-06)              
+GA         | +                            | + (p=1.66e-07)              
+DE         | +                            | + (p=6.8e-08)               
+SSA        | +                            | + (p=6.56e-08)              
+WOA        | +                            | + (p=6.57e-08)              
+MFO        | +                            | + (p=6.8e-08)               
+ALO        | +                            | + (p=5.2e-08)               
+HHO        | +                            | + (p=6.75e-08)              
+SCA        | +                            | + (p=6.8e-08)               
+ABC        | +                            | + (p=6.8e-08)               
+ACO        | +                            | + (p=6.28e-08)              
+BBO        | +                            | + (p=6.8e-08)               
+CS         | +                            | + (p=6.8e-08)               
+FA         | +                            | + (p=3.94e-08)              
+TLBO       | +                            | + (p=6.76e-08)              
+BA         | +                            | + (p=6.8e-08)               
+FPA        | +                            | + (p=6.61e-08)              
+SMA        | +                            | + (p=6.8e-08)               
+INFO       | +                            | + (p=7.85e-08)              
+SBOA       | +                            | + (p=6.8e-08)               
+ARO        | +                            | + (p=9.16e-08)              
+
+===== Map 5: 90x90 =====
+Algorithm  | Valid-only (orig. protocol)  | All-runs (incl. failures, NEW)
+GWO        | +                            | + (p=0.000305)              
+PSO        | +                            | + (p=1.38e-06)              
+GA         | +                            | + (p=3.42e-07)              
+DE         | +                            | + (p=1.81e-05)              
+SSA        | +                            | + (p=6.68e-08)              
+WOA        | +                            | + (p=6.6e-08)               
+MFO        | +                            | + (p=5.73e-08)              
+ALO        | +                            | + (p=3.46e-08)              
+HHO        | +                            | + (p=6.8e-08)               
+SCA        | +                            | + (p=4.49e-08)              
+ABC        | + (0%SR)                     | + (p=5.98e-08)              
+ACO        | + (0%SR)                     | + (p=4.35e-08)              
+BBO        | +                            | + (p=6.8e-08)               
+CS         | +                            | + (p=4.95e-08)              
+FA         | + (0%SR)                     | + (p=4.44e-08)              
+TLBO       | +                            | + (p=6.74e-08)              
+BA         | +                            | + (p=6.47e-08)              
+FPA        | + (0%SR)                     | + (p=4.74e-08)              
+SMA        | +                            | + (p=6.78e-08)              
+INFO       | +                            | + (p=2.96e-07)              
+SBOA       | +                            | + (p=6.8e-08)               
+ARO        | +                            | + (p=3.94e-07)              
+
+
+===== W/T/L Summary =====
+Algorithm  | Valid-only W/T/L | All-runs W/T/L  
+GWO        |  5/ 0/ 0          |  5/ 0/ 0
+PSO        |  5/ 0/ 0          |  5/ 0/ 0
+GA         |  4/ 1/ 0          |  4/ 1/ 0
+DE         |  4/ 1/ 0          |  4/ 1/ 0
+SSA        |  4/ 1/ 0          |  4/ 1/ 0
+WOA        |  5/ 0/ 0          |  5/ 0/ 0
+MFO        |  5/ 0/ 0          |  5/ 0/ 0
+ALO        |  5/ 0/ 0          |  5/ 0/ 0
+HHO        |  5/ 0/ 0          |  5/ 0/ 0
+SCA        |  5/ 0/ 0          |  5/ 0/ 0
+ABC        |  5/ 0/ 0          |  5/ 0/ 0
+ACO        |  5/ 0/ 0          |  5/ 0/ 0
+BBO        |  5/ 0/ 0          |  5/ 0/ 0
+CS         |  5/ 0/ 0          |  5/ 0/ 0
+FA         |  5/ 0/ 0          |  5/ 0/ 0
+TLBO       |  5/ 0/ 0          |  5/ 0/ 0
+BA         |  5/ 0/ 0          |  5/ 0/ 0
+FPA        |  5/ 0/ 0          |  5/ 0/ 0
+SMA        |  5/ 0/ 0          |  5/ 0/ 0
+INFO       |  5/ 0/ 0          |  5/ 0/ 0
+SBOA       |  5/ 0/ 0          |  5/ 0/ 0
+ARO        |  4/ 1/ 0          |  4/ 1/ 0
+
+Overall (110 comparisons): Valid-only Win=106(96.4%) Tie=4(3.6%) Loss=0(0.0%)  |  All-runs Win=106(96.4%) Tie=4(3.6%) Loss=0(0.0%)

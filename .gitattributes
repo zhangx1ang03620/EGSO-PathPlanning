@@ -1,0 +1,8 @@
+* text=auto
+*.m   text eol=lf linguist-language=MATLAB
+*.sh  text eol=lf
+*.py  text eol=lf
+*.md  text eol=lf
+*.txt text eol=lf
+*.mat binary
+*.png binary

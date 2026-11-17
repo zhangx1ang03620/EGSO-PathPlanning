@@ -1,0 +1,9 @@
+Start-Goal Connectivity and Deterministic Baselines by Stress-Test Complexity Level
+=========================================================================
+
+Level      Connected      A*.Length      A*.Time(s)     FMM.Length     FMM.Time(s)   
+1          1              95.42          0.073          97.94          0.029         
+2          1              99.56          0.015          105.06         0.022         
+3          1              185.20         0.018          191.12         0.016         
+4          1              184.57         0.013          188.99         0.015         
+5          1              269.01         0.015          280.77         0.013         

@@ -1,0 +1,19 @@
+# new runs (the shipped outputs of the paper are in results/)
+runs/
+
+# MATLAB
+*.asv
+*.m~
+*.autosave
+slprj/
+octave-workspace
+
+# Python
+__pycache__/
+*.pyc
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

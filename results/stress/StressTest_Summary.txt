@@ -1,0 +1,9 @@
+EGSO Local-Minima Susceptibility Stress Test
+Config: 15 runs, 100 iterations, pop=50, map size=60x60
+
+Stages                      EGSO (Full)    EGSO w/o EVF (APF-guided)                          GWO                          WOA
+1            SR= 100.0%, V.Mean=   95.18   SR= 100.0%, V.Mean=  105.04   SR= 100.0%, V.Mean=  110.59   SR=  93.3%, V.Mean=  149.72
+2            SR= 100.0%, V.Mean=   98.19   SR= 100.0%, V.Mean=  110.17   SR= 100.0%, V.Mean=  126.34   SR=   0.0%, V.Mean=     NaN
+3            SR= 100.0%, V.Mean=  181.38   SR=  86.7%, V.Mean=  223.84   SR=  20.0%, V.Mean=  233.02   SR=   0.0%, V.Mean=     NaN
+4            SR= 100.0%, V.Mean=  183.01   SR= 100.0%, V.Mean=  223.34   SR=  80.0%, V.Mean=  185.02   SR=   0.0%, V.Mean=     NaN
+5            SR=   0.0%, V.Mean=     NaN   SR=   0.0%, V.Mean=     NaN   SR=   0.0%, V.Mean=     NaN   SR=   0.0%, V.Mean=     NaN

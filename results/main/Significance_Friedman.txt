@@ -1,0 +1,3 @@
+Friedman Test: 23 algorithms across 5 maps (blocked by map, V.Mean as score)
+Chi-sq = 75.2766, df = 22, p-value = 9.536e-08
+Conclusion: significant overall difference among algorithms (p < 0.05).

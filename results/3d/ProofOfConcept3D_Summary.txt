@@ -1,0 +1,6 @@
+3D Voxel Proof-of-Concept: 20x20x8, density=8.6%, 10 independent runs
+
+Algorithm         SR(%)     V.Best     V.Mean    V.Worst      V.Std    Time(s)
+FMM-descent         ---      45.00        ---        ---        ---      0.041
+EGSO3D            100.0      28.11      29.65      30.70       0.84      0.383
+GWO3D              90.0      28.43      30.87      43.69       4.85      0.105

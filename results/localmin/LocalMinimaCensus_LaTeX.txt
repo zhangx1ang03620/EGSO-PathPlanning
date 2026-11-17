@@ -1,0 +1,15 @@
+% Table: Local-minima census, EVF vs APF (headline rho0=5, krep=50)
+\begin{table}[h]
+\caption{Exhaustive local-minima census: EVF ($T_{nav}$) vs. a standard artificial potential field (APF).}\label{tab:localmin}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}lcccc@{}}
+\toprule
+Map & EVF Trap Rate (\%) & EVF \#Sinks & APF Trap Rate (\%) & APF \#Sinks\\
+\midrule
+Map 1 & 0.00 & 0 & 43.67 & 15\\
+Map 2 & 0.00 & 0 & 74.92 & 8\\
+Map 3 & 0.00 & 0 & 78.33 & 50\\
+Map 4 & 0.00 & 0 & 33.40 & 6\\
+Map 5 & 0.00 & 0 & 53.87 & 15\\
+\botrule
+\end{tabular*}
+\end{table}

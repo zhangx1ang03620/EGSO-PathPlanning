@@ -1,0 +1,8 @@
+Friedman Test (recomputed with ManualFriedman.m, no toolbox dependency)
+23 algorithms across 5 maps (blocked by map, V.Mean as score)
+Chi-sq = 74.3022, df = 22, p-value = 1.369e-07
+
+Note: here algorithms with 0% SR on a map share the average of the tied ranks.
+The paper breaks these ties by the listing order of the algorithm table, which gives
+chi-sq = 79.29 (p = 2.12e-08); see experiments/Run_FriedmanPaperConvention.m.
+Conclusion: significant overall difference among algorithms (p < 0.05).

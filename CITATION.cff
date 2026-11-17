@@ -1,0 +1,62 @@
+cff-version: 1.2.0
+message: "If you use this code or the benchmark maps, please cite the paper below."
+title: "EGSO: An Eikonal-Guided Swarm Optimization Paradigm with a Provably Local-Minima-Free Navigation Field for Path Planning"
+type: software
+license: MIT
+repository-code: "https://github.com/zhangx1ang03620/EGSO"
+authors:
+  - family-names: Zhang
+    given-names: Xiang
+    affiliation: "We Young Open Lab, Hangzhou We Young Geron Technology Co., Ltd."
+  - family-names: Wang
+    given-names: Qiang
+    affiliation: "TikTok Australia Pty Ltd"
+  - family-names: Yue
+    given-names: ChaoFan
+    affiliation: "We Young Open Lab, Hangzhou We Young Geron Technology Co., Ltd."
+  - family-names: Cheng
+    given-names: Zhiwei
+    affiliation: "Seres Group Co., Ltd.; We Young Open Lab, Hangzhou We Young Geron Technology Co., Ltd."
+  - family-names: Mei
+    given-names: Chenrui
+    affiliation: "College of Mechanical and Electrical Engineering, Harbin Engineering University"
+  - family-names: Liu
+    given-names: Jinjiang
+    affiliation: "We Young Open Lab, Hangzhou We Young Geron Technology Co., Ltd."
+  - family-names: Li
+    given-names: ZhenNing
+    affiliation: "We Young Open Lab, Hangzhou We Young Geron Technology Co., Ltd."
+  - family-names: Yuan
+    given-names: Chunhong
+    affiliation: "We Young Open Lab, Hangzhou We Young Geron Technology Co., Ltd."
+keywords:
+  - "path planning"
+  - "Eikonal equation"
+  - "viscosity solution"
+  - "fast marching method"
+  - "swarm intelligence"
+  - "local minima"
+preferred-citation:
+  type: article
+  title: "EGSO: An Eikonal-Guided Swarm Optimization Paradigm with a Provably Local-Minima-Free Navigation Field for Path Planning"
+  journal: "Journal of King Saud University - Computer and Information Sciences"
+  year: 2026
+  status: in-press
+  notes: "Accepted; volume, pages and DOI to be added."
+  authors:
+    - family-names: Zhang
+      given-names: Xiang
+    - family-names: Wang
+      given-names: Qiang
+    - family-names: Yue
+      given-names: ChaoFan
+    - family-names: Cheng
+      given-names: Zhiwei
+    - family-names: Mei
+      given-names: Chenrui
+    - family-names: Liu
+      given-names: Jinjiang
+    - family-names: Li
+      given-names: ZhenNing
+    - family-names: Yuan
+      given-names: Chunhong

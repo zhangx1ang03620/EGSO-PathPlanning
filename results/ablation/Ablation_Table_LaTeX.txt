@@ -1,0 +1,18 @@
+% EGSO Ablation Study Results - LaTeX Table
+
+\begin{table}[htbp]
+\centering
+\caption{Ablation study results of EGSO across 3 representative maps (10 runs)}
+\begin{tabular}{lrrrrrr}
+\hline
+Variant & \multicolumn{2}{c}{Map 1} & \multicolumn{2}{c}{Map 3} & \multicolumn{2}{c}{Map 5} \\
+  & SR(\%) & V.Mean & SR(\%) & V.Mean & SR(\%) & V.Mean \\
+\hline
+\textbf{EGSO} & 100.0 & 77.85 & 100.0 & 91.78 & 100.0 & 154.74 \\
+w/o EVF & 100.0 & 87.10 & 100.0 & 95.37 & 100.0 & 155.80 \\
+w/o GSI & 100.0 & 113.75 & 100.0 & 119.53 & 100.0 & 307.04 \\
+w/o CALS & 100.0 & 76.53 & 100.0 & 91.39 & 100.0 & 154.81 \\
+w/o AntiStag & 100.0 & 77.61 & 100.0 & 94.19 & 100.0 & 156.15 \\
+\hline
+\end{tabular}
+\end{table}

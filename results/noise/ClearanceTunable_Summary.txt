@@ -1,0 +1,38 @@
+Tunable min_clearance: length cost vs noise-robustness gain
+=========================================================================
+
+Map 1 (50x50):
+  min_clearance=1.0: SR=100.0%, V.Mean=76.16, MeanClr=2.735, MinClr=1.000
+    Survival(%) @ sigma=[0.1 0.2 0.3 0.4 0.5 0.6 0.8 1]:    43.0   39.0   19.7   12.0   12.7    7.0    4.7    1.0
+  min_clearance=2.0: SR=100.0%, V.Mean=76.95, MeanClr=2.430, MinClr=1.000
+    Survival(%) @ sigma=[0.1 0.2 0.3 0.4 0.5 0.6 0.8 1]:    32.3   24.0   12.7    6.0    0.7    2.3    1.0    0.0
+  Length cost of min_clearance 1.0->2.0: 1.04%
+
+Map 2 (50x50):
+  min_clearance=1.0: SR=100.0%, V.Mean=133.00, MeanClr=2.030, MinClr=0.000
+    Survival(%) @ sigma=[0.1 0.2 0.3 0.4 0.5 0.6 0.8 1]:    21.7   14.7    6.7    1.7    1.0    0.3    0.0    0.0
+  min_clearance=2.0: SR=100.0%, V.Mean=133.52, MeanClr=2.460, MinClr=0.000
+    Survival(%) @ sigma=[0.1 0.2 0.3 0.4 0.5 0.6 0.8 1]:    29.7   24.7   13.3    3.3    2.0    0.7    0.0    0.0
+  Length cost of min_clearance 1.0->2.0: 0.39%
+
+Map 3 (60x60):
+  min_clearance=1.0: SR=100.0%, V.Mean=92.29, MeanClr=3.385, MinClr=0.707
+    Survival(%) @ sigma=[0.1 0.2 0.3 0.4 0.5 0.6 0.8 1]:    21.0   15.0    3.3    1.7    0.3    0.0    0.0    0.0
+  min_clearance=2.0: SR=100.0%, V.Mean=92.25, MeanClr=3.506, MinClr=0.707
+    Survival(%) @ sigma=[0.1 0.2 0.3 0.4 0.5 0.6 0.8 1]:    21.7   13.7    5.7    1.0    1.0    0.0    0.3    0.0
+  Length cost of min_clearance 1.0->2.0: -0.05%
+
+Map 4 (80x80):
+  min_clearance=1.0: SR=100.0%, V.Mean=118.17, MeanClr=4.946, MinClr=1.000
+    Survival(%) @ sigma=[0.1 0.2 0.3 0.4 0.5 0.6 0.8 1]:    44.7   37.0   23.7   16.3   11.7    8.0    6.0    2.0
+  min_clearance=2.0: SR=100.0%, V.Mean=119.44, MeanClr=5.246, MinClr=0.707
+    Survival(%) @ sigma=[0.1 0.2 0.3 0.4 0.5 0.6 0.8 1]:    52.3   51.0   27.7   28.0   11.7   11.3    7.0    9.3
+  Length cost of min_clearance 1.0->2.0: 1.08%
+
+Map 5 (90x90):
+  min_clearance=1.0: SR=100.0%, V.Mean=156.67, MeanClr=2.829, MinClr=1.000
+    Survival(%) @ sigma=[0.1 0.2 0.3 0.4 0.5 0.6 0.8 1]:    28.3   17.3    8.3    2.7    0.7    0.0    0.0    0.0
+  min_clearance=2.0: SR=100.0%, V.Mean=154.16, MeanClr=2.942, MinClr=1.000
+    Survival(%) @ sigma=[0.1 0.2 0.3 0.4 0.5 0.6 0.8 1]:    31.7   26.3   13.0    3.7    0.3    0.7    0.0    0.0
+  Length cost of min_clearance 1.0->2.0: -1.60%
+

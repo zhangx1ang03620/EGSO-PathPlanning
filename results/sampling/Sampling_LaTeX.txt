@@ -1,0 +1,20 @@
+% Table: RRT* / Informed-RRT* sampling-based baselines (20 independent runs)
+\begin{table*}[h]
+\caption{Comparison with sampling-based references (RRT*, Informed-RRT*, 20 independent runs) across the five benchmark maps.}\label{tab:sampling}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}lccccccc@{}}
+\toprule
+Map & Algorithm & SR(\%) & V.Best & V.Mean & V.Worst & V.Std & Time(s)\\
+\midrule
+Map 1 & RRT* & 100.0 & 76.74 & 79.79 & 86.28 & 2.59 & 0.118\\
+ & Informed-RRT* & 100.0 & 77.54 & 81.31 & 87.74 & 2.44 & 0.123\\
+Map 2 & RRT* & 100.0 & 135.74 & 139.05 & 144.89 & 2.81 & 0.081\\
+ & Informed-RRT* & 100.0 & 139.35 & 147.22 & 155.93 & 5.39 & 0.064\\
+Map 3 & RRT* & 100.0 & 86.73 & 95.48 & 111.35 & 7.23 & 0.103\\
+ & Informed-RRT* & 100.0 & 87.03 & 93.25 & 108.54 & 5.20 & 0.112\\
+Map 4 & RRT* & 100.0 & 120.74 & 129.53 & 143.43 & 6.75 & 0.099\\
+ & Informed-RRT* & 100.0 & 120.48 & 128.09 & 138.75 & 6.06 & 0.116\\
+Map 5 & RRT* & 100.0 & 150.45 & 162.20 & 205.59 & 13.88 & 0.072\\
+ & Informed-RRT* & 100.0 & 150.30 & 160.75 & 194.62 & 10.22 & 0.082\\
+\botrule
+\end{tabular*}
+\end{table*}

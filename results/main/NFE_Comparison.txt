@@ -1,0 +1,9 @@
+NFE (Number of Function Evaluations) Comparison, Map1, N=50, T=100, 5 runs each
+=========================================================================
+
+EGSO    : NFE = 10520.8 +/- 194.1
+GWO     : NFE = 5100.0 +/- 0.0
+PSO     : NFE = 5100.0 +/- 0.0
+ABC     : NFE = 5025.0 +/- 0.0
+SSA     : NFE = 7150.0 +/- 0.0
+ARO     : NFE = 5150.0 +/- 0.0
