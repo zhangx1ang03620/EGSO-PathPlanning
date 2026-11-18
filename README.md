@@ -93,7 +93,7 @@ EGSO-PathPlanning/
 │   ├── metaheuristics/       22 competing algorithms (GWO, PSO, GA, DE, SSA, ..., INFO, SBOA, ARO)
 │   └── planners/             A*, APF-weighted A*, FMM-descent, RRT* / Informed-RRT*
 ├── fields/                   APF, BFS and chamfer fields, greedy-descent local-minima census
-├── maps/                     benchmark, stress-test and scalability map generators
+├── maps/                     benchmark maps as CSV/MAT (benchmark_maps/) and the map generators
 ├── stats/                    toolbox-free Wilcoxon rank-sum and Friedman tests
 ├── experiments/              one script per experiment of the paper (see below)
 │   └── equal_nfe/            equal-evaluation-budget protocol (counting fitness wrapper)

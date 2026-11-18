@@ -78,7 +78,7 @@ EGSO-PathPlanning/
 │   ├── metaheuristics/       22 个对比算法
 │   └── planners/             A*、APF 加权 A*、FMM-descent、RRT* / Informed-RRT*
 ├── fields/                   APF、BFS、Chamfer 场与贪婪下降局部极小普查
-├── maps/                     基准、压力测试与可扩展性地图生成
+├── maps/                     基准地图数据（benchmark_maps/，CSV 与 MAT）及地图生成脚本
 ├── stats/                    不依赖工具箱的 Wilcoxon 秩和检验与 Friedman 检验
 ├── experiments/              论文每个实验对应的脚本（见下表）
 │   └── equal_nfe/            相同评价次数预算协议（带计数的 fitness 包装）
