@@ -26,7 +26,7 @@ Earlier versions of `EGSO.m` and its variants also moved each elite individual b
 
 ## Baselines
 
-- `baselines/metaheuristics/`: the 22 competing algorithms, each with the interface `[best, x, curve] = ALGO(N, T, lb, ub, dim, fobj, G)` and the hyperparameters listed in Appendix A of the paper. None was retuned for these maps.
+- `baselines/metaheuristics/`: the 22 competing algorithms (SSA is the sparrow search algorithm of Xue and Shen, 2020), each with the interface `[best, x, curve] = ALGO(N, T, lb, ub, dim, fobj, G)` and the hyperparameters listed in Appendix A of the paper. None was retuned for these maps.
 - GWO, PSO, GA, DE, SSA, INFO, SBOA and ARO call `LocalSearch.m` once per iteration: each coordinate of the current best is replaced by a random free row and kept if the fitness improves (`dim + 1` evaluations). This is not part of the canonical algorithms and favours these eight baselines.
 - `baselines/planners/`: `AStarPath` (8-connected, octile heuristic), `APF_AStarPath` (A* with repulsive-potential edge cost), `FMMDescentPath` (greedy 4-neighbour descent on `T_nav`), `RRTStarPath` (RRT* and Informed-RRT* in continuous coordinates). All their paths go through the same `GenerateSmoothPath` post-processing as the swarm algorithms.
 

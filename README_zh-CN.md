@@ -4,6 +4,7 @@
 
 <p align="center">
   <img alt="Journal" src="https://img.shields.io/badge/Journal-JKSU--CIS%202026%20(accepted)-1F4E79">
+  <a href="https://doi.org/10.1007/s44443-026-01514-8"><img alt="DOI" src="https://img.shields.io/badge/DOI-10.1007%2Fs44443--026--01514--8-blue"></a>
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green.svg"></a>
   <img alt="MATLAB" src="https://img.shields.io/badge/MATLAB-R2023b%2B-E16737">
   <img alt="Toolboxes" src="https://img.shields.io/badge/Toolboxes-none%20required-success">
@@ -17,7 +18,7 @@
 
 本仓库包含论文的代码、基准地图以及全部实验的原始结果：
 
-> X. Zhang, Q. Wang, C. Yue, Z. Cheng, C. Mei, J. Liu, Z. Li, and C. Yuan, "EGSO: An Eikonal-Guided Swarm Optimization Paradigm with a Provably Local-Minima-Free Navigation Field for Path Planning," *Journal of King Saud University – Computer and Information Sciences*, accepted, 2026.
+> X. Zhang, Q. Wang, C. Yue, Z. Cheng, C. Mei, J. Liu, Z. Li, and C. Yuan, "EGSO: An Eikonal-Guided Swarm Optimization Paradigm with a Provably Local-Minima-Free Navigation Field for Path Planning," *Journal of King Saud University – Computer and Information Sciences*, 2026, in press, doi: [10.1007/s44443-026-01514-8](https://doi.org/10.1007/s44443-026-01514-8).
 
 EGSO 以 Eikonal 方程的粘性解为核心构建群智能优化器。根据 Sethian 一致性定理，该场在目标点以外不存在伪局部极小，这一点是手工势场无法保证的。算法由四个模块组成：
 
@@ -69,7 +70,7 @@ EGSO 的最优一次运行在 Map 1（75.40）和 Map 4（116.89）上短于 A*�
 ## 目录结构
 
 ```
-EGSO/
+EGSO-PathPlanning/
 ├── egso/                     EGSO 本体与共用的问题定义（目标函数、路径解码与平滑）
 │   └── variants/             消融、析因、灵敏度与净空可调变体
 ├── egso3d/                   三维体素概念验证
@@ -96,8 +97,12 @@ EGSO/
 
 ## 快速开始
 
+```bash
+git clone https://github.com/zhangx1ang03620/EGSO-PathPlanning.git
+```
+
 ```matlab
-cd EGSO            % 仓库根目录
+cd EGSO-PathPlanning   % 仓库根目录
 setup_egso         % 添加路径
 quickstart         % Map 1：Eikonal 场、局部极小普查、EGSO 路径（约 5 秒）
 reproduce_check    % 重算论文关键数字并比对（约 1 分钟）
@@ -141,7 +146,8 @@ matlab -batch "setup_egso; Aggregate_Comparison_Results"
   author  = {Zhang, Xiang and Wang, Qiang and Yue, ChaoFan and Cheng, Zhiwei and Mei, Chenrui and Liu, Jinjiang and Li, ZhenNing and Yuan, Chunhong},
   journal = {Journal of King Saud University -- Computer and Information Sciences},
   year    = {2026},
-  note    = {Accepted}
+  doi     = {10.1007/s44443-026-01514-8},
+  note    = {In press}
 }
 ```
 

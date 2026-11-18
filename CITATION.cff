@@ -3,7 +3,7 @@ message: "If you use this code or the benchmark maps, please cite the paper belo
 title: "EGSO: An Eikonal-Guided Swarm Optimization Paradigm with a Provably Local-Minima-Free Navigation Field for Path Planning"
 type: software
 license: MIT
-repository-code: "https://github.com/zhangx1ang03620/EGSO"
+repository-code: "https://github.com/zhangx1ang03620/EGSO-PathPlanning"
 authors:
   - family-names: Zhang
     given-names: Xiang
@@ -41,8 +41,10 @@ preferred-citation:
   title: "EGSO: An Eikonal-Guided Swarm Optimization Paradigm with a Provably Local-Minima-Free Navigation Field for Path Planning"
   journal: "Journal of King Saud University - Computer and Information Sciences"
   year: 2026
+  doi: "10.1007/s44443-026-01514-8"
+  url: "https://doi.org/10.1007/s44443-026-01514-8"
   status: in-press
-  notes: "Accepted; volume, pages and DOI to be added."
+  notes: "Accepted; volume and pages to be added."
   authors:
     - family-names: Zhang
       given-names: Xiang

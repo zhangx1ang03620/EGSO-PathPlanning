@@ -4,6 +4,7 @@
 
 <p align="center">
   <img alt="Journal" src="https://img.shields.io/badge/Journal-JKSU--CIS%202026%20(accepted)-1F4E79">
+  <a href="https://doi.org/10.1007/s44443-026-01514-8"><img alt="DOI" src="https://img.shields.io/badge/DOI-10.1007%2Fs44443--026--01514--8-blue"></a>
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green.svg"></a>
   <img alt="MATLAB" src="https://img.shields.io/badge/MATLAB-R2023b%2B-E16737">
   <img alt="Toolboxes" src="https://img.shields.io/badge/Toolboxes-none%20required-success">
@@ -17,7 +18,7 @@
 
 Code, benchmark maps and the raw results of every experiment in the paper
 
-> X. Zhang, Q. Wang, C. Yue, Z. Cheng, C. Mei, J. Liu, Z. Li, and C. Yuan, "EGSO: An Eikonal-Guided Swarm Optimization Paradigm with a Provably Local-Minima-Free Navigation Field for Path Planning," *Journal of King Saud University – Computer and Information Sciences*, accepted, 2026.
+> X. Zhang, Q. Wang, C. Yue, Z. Cheng, C. Mei, J. Liu, Z. Li, and C. Yuan, "EGSO: An Eikonal-Guided Swarm Optimization Paradigm with a Provably Local-Minima-Free Navigation Field for Path Planning," *Journal of King Saud University – Computer and Information Sciences*, 2026, in press, doi: [10.1007/s44443-026-01514-8](https://doi.org/10.1007/s44443-026-01514-8).
 
 EGSO builds a swarm optimizer around the viscosity solution of the Eikonal equation. By Sethian's consistency theorem this field has no spurious local minimum away from the goal, which hand-crafted potential fields cannot guarantee. The pipeline has four modules:
 
@@ -80,7 +81,7 @@ EGSO's best run is shorter than A* on Map 1 (75.40) and Map 4 (116.89): after sm
 ## Contents
 
 ```
-EGSO/
+EGSO-PathPlanning/
 ├── egso/                     EGSO and its shared problem definition
 │   ├── EGSO.m                the algorithm (four modules)
 │   ├── FastMarchingField.m   first-order fast marching (Eikonal viscosity solution)
@@ -114,8 +115,12 @@ EGSO/
 
 ## Quick start
 
+```bash
+git clone https://github.com/zhangx1ang03620/EGSO-PathPlanning.git
+```
+
 ```matlab
-cd EGSO            % repository root
+cd EGSO-PathPlanning   % repository root
 setup_egso         % add the code folders to the path
 quickstart         % Map 1: Eikonal field, local-minima census, EGSO path (about 5 s)
 reproduce_check    % recompute key numbers of the paper and compare (about 1 min)
@@ -182,7 +187,8 @@ If you use this code or the benchmark maps, please cite:
   author  = {Zhang, Xiang and Wang, Qiang and Yue, ChaoFan and Cheng, Zhiwei and Mei, Chenrui and Liu, Jinjiang and Li, ZhenNing and Yuan, Chunhong},
   journal = {Journal of King Saud University -- Computer and Information Sciences},
   year    = {2026},
-  note    = {Accepted}
+  doi     = {10.1007/s44443-026-01514-8},
+  note    = {In press}
 }
 ```
 
